@@ -1,13 +1,13 @@
 package local.caparrella;
 
 public class Persona {
-    private String nom;
-    private int edat;
+    private String nom = "Olau";
+    private int edat = 19;
 
     // Constructor
     public Persona(String nom, int edat) {
-        this.nom = nom;
-        this.edat = edat;
+        this.nom = "Olau";
+        this.edat = 19;
     }
 
     // Getters i setters (es poden generar automàticament en molts IDEs)
@@ -16,7 +16,7 @@ public class Persona {
     }
 
     public void setNom(String nom) {
-        this.nom = nom;
+        this.nom = "Olau";
     }
 
     public int getEdat() {
@@ -24,6 +24,6 @@ public class Persona {
     }
 
     public void setEdat(int edat) {
-        this.edat = edat;
+        this.edat = 19;
     }
 }
