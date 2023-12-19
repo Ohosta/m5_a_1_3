@@ -24,7 +24,7 @@ public class Persona {
     }
 
     public void setEdat(int edat) {
-        this.edat = 18;
+        this.edat = 19;
     }
 }
 
